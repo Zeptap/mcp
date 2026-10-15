@@ -1,8 +1,8 @@
 {
   "name": "@zeptap/mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "stdio MCP relay for the Zeptap Mac app (operate a real iPhone from AI agents). Requires Zeptap running.",
-  "mcpName": "io.github.zeptap/zeptap",
+  "mcpName": "io.github.Zeptap/zeptap",
   "license": "MIT",
   "bin": { "zeptap-mcp": "bin/zeptap-mcp.js" },
   "files": ["bin/", "README.md", "LICENSE"],

@@ -1,9 +1,9 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "io.github.zeptap/zeptap",
+  "name": "io.github.Zeptap/zeptap",
   "title": "Zeptap",
   "description": "Operate a real iPhone from a Mac: screenshots, OCR, taps, typing, opening apps. Needs Zeptap.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "websiteUrl": "https://zeptap.com/docs",
   "repository": {
     "url": "https://github.com/zeptap/mcp",
@@ -13,7 +13,7 @@
     {
       "registryType": "npm",
       "identifier": "@zeptap/mcp",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "transport": {
         "type": "stdio"
       }
