@@ -46,7 +46,7 @@ App Store apps, Settings, Safari, Messages, TestFlight builds. If you can tap it
 The MCP server only accepts connections from the same Mac. Screenshots go only to the agent you connect. See [privacy](https://zeptap.com/docs/reference/privacy).
 
 **💳 Paid Mac app, first hour free.**
-The Mac app is closed source. After the first hour of live use: $25/month, $99 once, or $149 once for up to 5 iPhones. See [pricing](https://zeptap.com/pricing). Everything in this repo is MIT.
+The Mac app is closed source. After the first hour of live use: $25/month, $99 once, or $199 once for up to 5 iPhones. See [pricing](https://zeptap.com/pricing). Everything in this repo is MIT.
 
 ## Get started
 
