@@ -1,0 +1,10 @@
+.git/
+.github/
+.claude-plugin/
+skills/
+*.mcpb
+glama.json
+server.json
+smithery.yaml
+.mcp.json
+package.json

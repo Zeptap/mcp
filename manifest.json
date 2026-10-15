@@ -1,0 +1,58 @@
+{
+  "manifest_version": "0.3",
+  "name": "zeptap",
+  "display_name": "Zeptap",
+  "version": "1.0.1",
+  "description": "Operate a real iPhone from AI agents: screenshots, OCR, taps, typing, opening apps. Needs the Zeptap Mac app.",
+  "long_description": "Zeptap is a Mac app that lets AI agents see and operate a real iPhone. The Mac reads the iPhone screen over USB and sends taps and typing over Bluetooth through AssistiveTouch. Nothing is installed on the iPhone.\n\nThis bundle is a small stdio relay that starts the Zeptap app in --stdio mode. It requires the Zeptap app installed in /Applications with an iPhone connected by USB and paired over Bluetooth.\n\nThe Mac app is closed source and paid. The first hour of live use is free. See https://zeptap.com/pricing",
+  "author": {
+    "name": "Zeptap",
+    "email": "support@zeptap.com",
+    "url": "https://zeptap.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Zeptap/mcp"
+  },
+  "homepage": "https://zeptap.com",
+  "documentation": "https://zeptap.com/docs/agents/tools",
+  "support": "mailto:support@zeptap.com",
+  "icon": "icon.png",
+  "server": {
+    "type": "node",
+    "entry_point": "bin/zeptap-mcp.js",
+    "mcp_config": {
+      "command": "node",
+      "args": ["${__dirname}/bin/zeptap-mcp.js"],
+      "env": {}
+    }
+  },
+  "tools": [
+    { "name": "list_phones", "description": "List the iPhones connected to this Mac" },
+    { "name": "screenshot", "description": "Current iPhone screen as an image" },
+    { "name": "find_text", "description": "On-device OCR of screen text, optional filter" },
+    { "name": "wait", "description": "Wait a number of milliseconds" },
+    { "name": "tap", "description": "Tap at x, y" },
+    { "name": "tap_text", "description": "Tap a visible text label" },
+    { "name": "double_tap", "description": "Double tap at x, y" },
+    { "name": "long_press", "description": "Long press at x, y" },
+    { "name": "drag", "description": "Drag between two points" },
+    { "name": "flick", "description": "Scroll in a direction" },
+    { "name": "type_text", "description": "Type text into the focused field" },
+    { "name": "press_key", "description": "Press a key with optional modifiers" },
+    { "name": "home", "description": "Go to the Home Screen" },
+    { "name": "back", "description": "Go back" },
+    { "name": "dismiss", "description": "Close sheets, menus or the keyboard" },
+    { "name": "open_app", "description": "Open an installed app by name" },
+    { "name": "lock", "description": "Lock the iPhone" },
+    { "name": "unlock", "description": "Unlock with a passcode saved in the Keychain (opt in)" }
+  ],
+  "tools_generated": true,
+  "keywords": ["iphone", "ios", "mcp", "mobile", "testing", "macos", "automation"],
+  "license": "MIT",
+  "privacy_policies": ["https://zeptap.com/docs/reference/privacy"],
+  "compatibility": {
+    "platforms": ["darwin"],
+    "runtimes": { "node": ">=18.0.0" }
+  }
+}
