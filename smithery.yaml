@@ -1,0 +1,8 @@
+# Local stdio server. Requires the Zeptap Mac app running with an iPhone connected.
+startCommand:
+  type: stdio
+  configSchema:
+    type: object
+    properties: {}
+  commandFunction: |-
+    () => ({ command: "npx", args: ["-y", "@zeptap/mcp"] })

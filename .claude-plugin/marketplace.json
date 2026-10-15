@@ -1,0 +1,19 @@
+{
+  "name": "zeptap",
+  "owner": {
+    "name": "Zeptap",
+    "email": "support@zeptap.com"
+  },
+  "metadata": {
+    "description": "Zeptap plugin: operate a real iPhone from Claude Code through the Zeptap Mac app."
+  },
+  "plugins": [
+    {
+      "name": "zeptap",
+      "source": "./",
+      "description": "Operate a real iPhone from Claude Code through the Zeptap Mac app's local MCP server.",
+      "category": "development",
+      "homepage": "https://zeptap.com/docs"
+    }
+  ]
+}

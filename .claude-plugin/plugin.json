@@ -1,0 +1,10 @@
+{
+  "name": "zeptap",
+  "version": "1.0.0",
+  "description": "Operate a real iPhone from Claude Code through the Zeptap Mac app's local MCP server.",
+  "author": { "name": "Zeptap", "email": "support@zeptap.com", "url": "https://zeptap.com" },
+  "homepage": "https://zeptap.com/docs",
+  "repository": "https://github.com/zeptap/zeptap-mcp",
+  "license": "MIT",
+  "keywords": ["iphone", "ios", "mcp", "mobile", "testing", "macos"]
+}
