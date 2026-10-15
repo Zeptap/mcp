@@ -1,10 +1,21 @@
 {
   "name": "zeptap",
-  "version": "1.0.0",
-  "description": "Operate a real iPhone from Claude Code through the Zeptap Mac app's local MCP server.",
-  "author": { "name": "Zeptap", "email": "support@zeptap.com", "url": "https://zeptap.com" },
+  "version": "1.0.1",
+  "description": "Operate a real iPhone from Claude Code through the Zeptap Mac app's local MCP server. Requires the paid Zeptap app (first hour free).",
+  "author": {
+    "name": "Zeptap",
+    "email": "support@zeptap.com",
+    "url": "https://zeptap.com"
+  },
   "homepage": "https://zeptap.com/docs",
-  "repository": "https://github.com/zeptap/mcp",
+  "repository": "https://github.com/Zeptap/mcp",
   "license": "MIT",
-  "keywords": ["iphone", "ios", "mcp", "mobile", "testing", "macos"]
+  "keywords": [
+    "iphone",
+    "ios",
+    "mcp",
+    "mobile",
+    "testing",
+    "macos"
+  ]
 }
