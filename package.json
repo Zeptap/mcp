@@ -8,7 +8,7 @@
   "files": ["bin/", "README.md", "LICENSE"],
   "os": ["darwin"],
   "engines": { "node": ">=18" },
-  "repository": { "type": "git", "url": "git+https://github.com/zeptap/zeptap-mcp.git" },
+  "repository": { "type": "git", "url": "git+https://github.com/zeptap/mcp.git" },
   "homepage": "https://zeptap.com/docs",
   "keywords": ["mcp", "mcp-server", "iphone", "ios", "macos", "claude-code"]
 }

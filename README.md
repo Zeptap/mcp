@@ -24,7 +24,7 @@ Claude Code:
 
 Claude Code plugin (adds the server and the skill):
 
-    /plugin marketplace add zeptap/zeptap-mcp
+    /plugin marketplace add zeptap/mcp
     /plugin install zeptap@zeptap
 
 Cursor (`~/.cursor/mcp.json`):
